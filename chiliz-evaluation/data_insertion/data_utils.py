@@ -37,18 +37,6 @@ class Dim_country(Base):
     country_code = Column('country_code', String)
     country_name = Column('country_name', String)
 
-# class Dim_user(Base):
-#     __tablename__ = 'dim_user'
-
-#     user_id = Column('user_id', Integer, primary_key=True)
-#     username = Column('username', String)
-#     residence_country_code = Column('residence_country_code', String)
-#     registration_date = Column('registration_date', DateTime)
-#     favorite_club = Column('favorite_club', String)
-#     current_kyc = Column('current_kyc', Integer)
-#     registration_affiliate = Column('registration_affiliate', String)
-#     last_updated_at = Column('last_updated_at', DateTime)
-
 class Fact_transaction(Base):
     __tablename__ = 'fact_transaction'
 
@@ -69,22 +57,6 @@ class Dim_conversion_rate(Base):
     valid_to = Column('valid_to', DateTime)
     usd_rate = Column('usd_rate', Float)
 
-# class User_metrics(Base):
-#     __tablename__ = 'user_metrics'
-
-#     primary_key = Column('primary_key', Integer, primary_key=True, autoincrement=True)
-#     username = Column('username', String)
-#     residency_country = Column('residency_country', String)
-#     kyc = Column('kyc', Integer)
-#     affiliate = Column('affiliate', String)
-#     conversion_date = Column('conversion_date', DateTime)
-#     conversion_token = Column('conversion_token', String)
-#     conversion_amount_usd = Column('conversion_amount_usd', Float)
-#     days_to_convert = Column('days_to_convert', Float)
-#     last_deposit_date = Column('last_deposit_date', DateTime)
-#     most_traded_fan_token = Column('most_traded_fan_token', String)
-#     favorite_club = Column('favorite_club', String)
-#     favorite_club_tokens = Column('favorite_club_tokens', Integer)
 
 #Data Insertion Queries
 sql_dim_user = """
