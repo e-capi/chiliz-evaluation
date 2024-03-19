@@ -4,7 +4,7 @@ This Readme file contains two main sections:
 - The second part has explanations and assumptions made through the assesment.
 
 **Disclaimer:**
-  - As a professional I've lightly used the DBT framework, it is something I'm keen to continue learning. Nevertheless, due to the nature of the assesment and the time I would need to produce some quality work with DBT, I decided to go with a *Pythonestic* approach which I believe can highlight in a better way my skills.
+  - As a professional I've lightly used the DBT framework, it is something I'm keen to continue learning. Nevertheless, due to the nature of the assessment and the time I would need to produce some quality work with DBT, I decided to go with a *Pythonestic* approach which I believe can highlight in a better way my skills.
 
 ## Technical Section
 This repository  aims to:
