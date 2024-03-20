@@ -6,7 +6,6 @@ from data_utils import Base, Stg_user, Str_user_registration, Stg_user_kyc, Dim_
 import logging
 from dotenv import load_dotenv
 from tqdm import tqdm
-import glob
 
 # Get the current directory of the script
 current_dir = os.path.dirname(os.path.abspath(__file__))
