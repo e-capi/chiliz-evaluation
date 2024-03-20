@@ -7,7 +7,8 @@ wheel>=0.29
 # data science
 numpy
 pandas
-scikit-learn
+notebook
+jupyter
 
 # tests/linter
 black
@@ -16,14 +17,18 @@ flake8
 pytest
 yapf
 
-# API
-gcsfs
-google-cloud-storage
-mlflow
-s3fs
-
 # utilities
 six>=1.14
 joblib
 memoized-property
 termcolor
+
+# DB
+psycopg2-binary
+sqlalchemy
+
+# OS
+python-dotenv
+
+# Additional Dependencies
+tqdm
