@@ -12,7 +12,8 @@ This repository  aims to:
 2. Produce an easy way to run and test the code for the reviewers convenience.
 
 ### Spin up a PG instance with Docker
-Running the main.py will create an instance of a PG database which will retain all of our data for this assesment.
+- Install requirements from terminal: *pip install -r requirements.txt*
+- Running the main.py will create an instance of a PG database which will retain all of our data for this assesment.
 
 ### Utility Module
 - This module has the table schema for the creation of the original tables that were given on csv files.
